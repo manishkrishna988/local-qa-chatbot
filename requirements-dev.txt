@@ -30,8 +30,6 @@ click==8.5.0
     # via
     #   streamlit
     #   uvicorn
-colorama==0.4.6
-    # via pytest
 distro==1.9.0
     # via langsmith
 h11==0.16.0
@@ -124,7 +122,7 @@ pydeck==0.9.3
     # via streamlit
 pygments==2.21.0
     # via pytest
-pytest==9.1.1
+pytest==9.2.0
     # via -r requirements-dev.in
 python-dateutil==2.9.0.post0
     # via pandas
@@ -169,20 +167,15 @@ typing-extensions==4.16.0
     # via
     #   altair
     #   anyio
-    #   httpx2
     #   langchain-core
     #   langchain-protocol
     #   langsmith
     #   pydantic
     #   pydantic-core
-    #   referencing
-    #   starlette
     #   streamlit
     #   typing-inspection
 typing-inspection==0.4.4
     # via pydantic
-tzdata==2026.3
-    # via pandas
 urllib3==2.7.0
     # via requests
 uuid-utils==0.17.0
